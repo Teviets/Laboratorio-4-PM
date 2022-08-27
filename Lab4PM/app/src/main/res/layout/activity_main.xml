@@ -68,13 +68,13 @@
         android:layout_height="49dp"
         android:text="4 de septiembre"
         app:autoSizeTextType="uniform"
-        app:layout_constraintEnd_toStartOf="@+id/button2"
+        app:layout_constraintEnd_toStartOf="@+id/Fin_Jornada"
         app:layout_constraintHorizontal_bias="0.32"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/Fin_Jornada"
         style="?attr/materialButtonOutlinedStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -138,19 +138,19 @@
             app:layout_constraintVertical_bias="0.0" />
 
         <Button
-            android:id="@+id/button4"
+            android:id="@+id/ToastMessage"
             android:layout_width="185dp"
             android:layout_height="53dp"
             android:layout_marginTop="9dp"
             android:backgroundTint="#fe7655"
             android:text="Iniciar"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toStartOf="@+id/button5"
+            app:layout_constraintEnd_toStartOf="@+id/Details"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView7" />
 
         <Button
-            android:id="@+id/button5"
+            android:id="@+id/Details"
             android:layout_width="177dp"
             android:layout_height="57dp"
             android:background="#00FFFFFF"
@@ -165,7 +165,7 @@
             app:layout_constraintVertical_bias="0.882" />
 
         <ImageButton
-            android:id="@+id/imageButton"
+            android:id="@+id/LocationRes"
             android:layout_width="61dp"
             android:layout_height="54dp"
             android:layout_marginTop="4dp"

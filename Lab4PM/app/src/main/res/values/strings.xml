@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">Lab4PM</string>
+    <string name = "app_name">Lab4PM</string>
+    <string name = "NombreRes1">Buenos Aires by Palermos </string>>
+    <string name = "horarioRes1">12:00PM - 11:59PM</string>
+    <string name="dirRes1"></string>
+
 </resources>
